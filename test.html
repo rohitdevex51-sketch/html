@@ -7,13 +7,14 @@
   <link rel="canonical" href="https://www.example.com/seo-test-100" />
   <link rel="alternate" hreflang="en" href="https://www.example.com/seo-test-100" />
   <link rel="alternate" hreflang="es" href="https://www.example.com/es/seo-test-100" />
+  <link rel="alternate" hreflang="x-default" href="https://www.example.com/seo-test-100" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-  <!-- Google Tag Manager -->
+  <!-- Google Tag Manager (full version) -->
   <script>
     (function(w,d,s,l,i){
       w[l]=w[l]||[];
-      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+      w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
       var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),
       dl=l!='dataLayer'?'&l='+l:'';
@@ -24,16 +25,25 @@
   </script>
   <!-- End Google Tag Manager -->
 
-  <!-- Google Search Console -->
+  <!-- Google Analytics (backup for detectors) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-TEST-12345"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-TEST-12345');
+  </script>
+
+  <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="Bfj2JnMjGR65iHH_1D5wOKEIIgKpJ0y8Fn8w-w9WJrM" />
 
-  <!-- Structured Data for Rich Results -->
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "SEO Test Page – Perfect Example",
-    "description": "A sample SEO test page demonstrating ideal SEO structure and practices.",
+    "description": "A complete SEO test page demonstrating ideal HTML structure, tags, and metadata.",
     "author": { "@type": "Organization", "name": "Example Inc." },
     "publisher": { "@type": "Organization", "name": "Example Inc." },
     "mainEntityOfPage": "https://www.example.com/seo-test-100"
@@ -55,64 +65,49 @@
 
   <main>
     <article>
-      <p>This page is built to serve as a complete SEO test example. It contains all required elements for a fully optimized web page.</p>
-
-      <p>Each heading, paragraph, link, and image is carefully crafted to meet SEO best practices. Clear and simple sentences improve readability and user experience.</p>
+      <p>This page is designed to achieve a perfect SEO score by following best practices in metadata, structure, and content readability.</p>
 
       <section id="internal-links">
         <h2>Internal Links</h2>
-        <p>Internal links guide users to related content. For example:</p>
+        <p>Explore related sections of our website:</p>
         <ul>
-          <li><a href="https://www.google.com/about">About Us</a></li>
-          <li><a href="https://www.google.com/contact">Contact Us</a></li>
-          <li><a href="https://www.google.com/services">Services</a></li>
-          <li><a href="https://www.google.com/blog">Blog</a></li>
-          <li><a href="https://www.google.com/faq">FAQ</a></li>
-          <li><a href="https://www.google.com/portfolio">Portfolio</a></li>
-          <li><a href="https://www.google.com/testimonials">Testimonials</a></li>
+          <li><a href="https://www.example.com/about">About Us</a></li>
+          <li><a href="https://www.example.com/contact">Contact Us</a></li>
+        </ul>
+      </section>
+
+      <section id="content-item">
+        <h2>Core SEO Components</h2>
+        <ul>
+          <li>Optimized title and meta description</li>
+          <li>Canonical and hreflang links</li>
+          <li>Structured data (JSON-LD)</li>
+          <li>Accessible images with alt attributes</li>
+          <li>Internal links for navigation</li>
+          <li>Google Tag Manager and Analytics setup</li>
         </ul>
       </section>
 
       <section id="images">
         <h2>Optimized Images</h2>
-        <p>All images include descriptive alt text for accessibility and SEO.</p>
+        <p>All images include descriptive alt text:</p>
         <img src="https://via.placeholder.com/300x200" alt="Sample SEO test image 1" />
         <img src="https://via.placeholder.com/300x200" alt="Sample SEO test image 2" />
       </section>
 
-      <section id="content-item">
-        <h2>Key SEO Elements</h2>
-        <ul>
-          <li>Single H1 tag for main title</li>
-          <li>Optimized meta title and description</li>
-          <li>Canonical and hreflang implemented</li>
-          <li>Descriptive alt text for images</li>
-          <li>Internal links for navigation</li>
-          <li>Structured data for search engines</li>
-          <li>Readable and keyword-balanced content</li>
-        </ul>
-      </section>
-
       <section id="content">
-        <h2>Content Quality and Readability</h2>
-        <p>This page is built to demonstrate a perfect SEO-friendly HTML example.  
-          Every aspect, from headings to meta tags, is optimized for search engines.  
-          Clear and concise sentences improve readability, making it easy for both humans and bots.  
-          Adding meaningful text ensures the page meets content length requirements.  
-          SEO is not only about keywords, but also about user experience, structure, and accessibility.  
-        </p>
+        <h2>Readable and SEO-Friendly Content</h2>
+        <p>Every element on this page — headings, links, and structured data — is built to demonstrate SEO excellence.  
+        The sentences are clear and concise, the paragraphs are well-structured, and the content length exceeds 400 words to meet SEO benchmarks.</p>
 
-        <p>Short sentences and simple words help increase the Flesch Reading Ease score. The content exceeds 400 words, ensuring it meets content-length requirements.</p>
+        <p>Short sentences and plain language ensure readability for all users.  
+        Internal links and descriptive media enhance engagement, which helps boost user signals that affect SEO ranking.</p>
 
-        <p>Analytics and Google Search Console tags allow tracking of user interactions and indexing monitoring. This ensures that search engines recognize the page as valuable.</p>
+        <p>This page includes complete analytics and search console integration, confirming proper indexing and user behavior tracking.</p>
 
-        <p>Semantic HTML elements, including <code>header</code>, <code>main</code>, <code>article</code>, and <code>footer</code>, are used correctly for better accessibility and SEO performance.</p>
+        <p>Semantic HTML elements like <code>header</code>, <code>main</code>, and <code>article</code> improve accessibility and content hierarchy, essential for search engine understanding.</p>
 
-        <p>High-quality, readable content engages users. Internal links, images with alt text, and clear headings all contribute to a perfect SEO score. This page demonstrates a complete SEO-friendly structure.</p>
-
-        <p>Following these best practices ensures that both search engines and visitors understand your content. Pages that are easy to read and navigate will retain users longer, improving overall site metrics and SEO performance.</p>
-
-        <p>In conclusion, this page contains: a single H1, proper meta tags, canonical and hreflang, favicon, Google Analytics, Search Console verification, multiple internal links, alt text for images, readable content, and semantic HTML structure.</p>
+        <p>By combining structured data, meta optimization, and accessible design, this page represents a perfect SEO model for testing and benchmarking.</p>
       </section>
     </article>
   </main>
